@@ -64,9 +64,9 @@ Symbols that perform simple computations
 
 
 
-## Workshop_1 Feedback
+## Workshop1 Feedback
 
-### Methods 의 Access Control 에 관하여 .. 'public static' vs. 'static' 
+### Methods 의 Access Control 에 관하여 - 'public static' vs. 'static' 
 
 public 의 핵심은 클래스 내부가 아닌 외부에서 접근이 가능한지입니다. 클래스가 싱글일 경우는 상관 없지만, 외부에서 접근이 되지 않도록 private method 를 만드는 것이 좋습니다.
 
@@ -122,8 +122,6 @@ Argument를 넘기는 메서드를 recursion 하는 경우는 주의해야 합�
 ### 총평
 
 > 구획화 해서 main 메서드를 단순하게 만듭시다. 하나하나의 메서드가 최대한 독립적일 수 있도록 합시다.
->
-> 변수명은 r 보다는 rem (remainder) 를 사용해서 의미가 있도록 합시다.
 
 
 
