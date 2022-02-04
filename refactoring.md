@@ -2,6 +2,18 @@
 
  # Refactoring repetitive codes
 
+### calling function .. after or before null
+
+![image-20220204103344650](refactoring.assets/image-20220204103344650.png)
+
+왼쪽은 함수를 호출 한 후 null 을 처리한 경우이고 오른쪽은 함수 호출 전에 null 을 처리한 경우입니다. 왼쪽의 경우 입력값이 null인 경우 오작동합니다. 오른쪽의 경우 입력값이 null 인 경우 프로그램이 죽게 됩니다. 
+
+결론적으로 조건에 맞지 않으면 함수를 호출하지 못하도록 하는것이 좋습니다.
+
+오동작을 하고 프로그램이 멈추지 않는 것보다, 오동작이 발생하지 않고 프로그램이 멈추는 편이 비용이 적게 들고 속도 측면에서도 빠릅니다. 
+
+
+
 ### login code refactoring
 
 수정전 코드에서 성공에 대한 정보를 3군데(status, data, HttpStatus.OK ) 에서 중복으로 보내고 있습니다.. Client 는 어떤 정보를 써야 할까요? 의미가 모호해 집니다. HttpStatus.OK 한개만 쓰면 됩니다.
