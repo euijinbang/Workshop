@@ -2,6 +2,34 @@
 
  # Refactoring repetitive codes
 
+### use the best operators considering CPU clock
+
+![image-20220208232102133](refactoring.assets/image-20220208232102133.png)
+
+왼쪽이 속도가 가장 느리다. CPU 가 왼쪽은 산술연산자를, 오른쪽은 증감 연산자(shift 연산자)를 쓴다.
+
+CPU 의 클락수가 왼쪽은 4, 5회, 오른쪽은 1, 2회 사용한다.
+
+++i
+
+--i
+
+i<<1
+
+i>>1
+
+이 네 가지가 가장 빠르다. 성능에도 영향을 많이 미친다. 컴파일러가 자동으로 바꾸어 줄 수도 있지만 직접 우측 방법을 사용하는 것이 좋다. 
+
+
+
+### member variables, outside or inside of function
+
+왼쪽의 경우, 멤버 변수를 재사용하기 때문에 속도가 더 빠르다. 반면 오른쪽의 경우 함수 호출시마다 멤버 변수가 생성되기 때문에  성능이 떨어진다. 반면 가독성 측면에서는 오른쪽이 낫다. scope이 짧기 때문이다. 왼쪽의 경우 멤버 변수의 scope은 class 전체이고, 반면 오른쪽의 경우 멤버 변수 scope는 함수 하나이므로 가독성이 좋다.
+
+![image-20220207192544893](refactoring.assets/image-20220207192544893.png)
+
+
+
 ### calling function .. after or before null
 
 ![image-20220204103344650](refactoring.assets/image-20220204103344650.png)
