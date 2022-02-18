@@ -2,6 +2,14 @@
 
  # Refactoring repetitive codes
 
+![image-20220209100118934](refactoring.assets/image-20220209100118934.png)
+
+좌측은 좌표값을 넣지 않아도 draw 함수를 호출할 수 있기 때문에 문제가 발생할 수 있다. 반면 우측은 Line 이라는 생성자 함수를 통해서만 객체가 생성 가능하고 line 이라는 객체를 만들기 위해 필수적으로 필요한 요소들은 객체 생성시 할당되므로 더욱 단단한 코드가 된다.
+
+
+
+
+
 ### use the best operators considering CPU clock
 
 ![image-20220208232102133](refactoring.assets/image-20220208232102133.png)
