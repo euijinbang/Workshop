@@ -24,8 +24,8 @@ public class OperatorEx32 {
         signY = (y > 0) ? '+' : (y == 0 ? ' ' : '-');
         signZ = (z > 0) ? '+' : (z == 0 ? ' ' : '-');
 
-        System.out.printf("%d%n", signX);
-        System.out.printf("%d%n", signY);
-        System.out.printf("%d%n", signZ);
+        System.out.printf("%c%d%n", signX, absX);
+        System.out.printf("%c%d%n", signY, absY);
+        System.out.printf("%c%d%n", signZ, absZ);
     }
 }
