@@ -1,0 +1,27 @@
+[
+  {"id": 3, "name": "Battered Sole", "branch": null,
+    "area": "이태원", "tel": "02-749-6867",
+    "address": "서울특별시 용산구 이태원동 118-9",
+    "latitude": "37.535032", "longitude": "126.991664",
+    "category_list": [{"category": "피쉬앤칩스"}, {"category": "펍"}],
+    "menu_list": [
+      {"menu": "메인 (피쉬앤칩스, 오리 가슴살 등)", "price": 14000},
+      {"menu": "스타터 보드(파테 등)", "price": 18000},
+      {"menu": "디저트 (초콜렛 퐁당 등)", "price": 8500},
+      {"menu": "생과일 칵테일", "price": 9000},
+      {"menu": "생맥주", "price": 7000}
+    ],
+    "bhour_list": [{"type": 1, "week_type": 1, "mon": 0, "tue": 0, "wed": 0, "thu": 0, "fri": 0, "sat": 0, "sun": 1, "start_time": "17:30:00", "end_time": "23:30:00", "etc": ""},
+      {"type": 3, "week_type": 1, "mon": 1, "tue": 0, "wed": 0, "thu": 0, "fri": 0, "sat": 0, "sun": 0, "start_time": "00:00:00", "end_time": "00:00:00", "etc": ""},
+      {"type": 1, "week_type": 1, "mon": 0, "tue": 1, "wed": 1, "thu": 1, "fri": 0, "sat": 0, "sun": 0, "start_time": "17:30:00", "end_time": "23:30:00", "etc": ""},
+      {"type": 1, "week_type": 1, "mon": 0, "tue": 0, "wed": 0, "thu": 0, "fri": 1, "sat": 1, "sun": 0, "start_time": "17:30:00", "end_time": "24:00:00", "etc": ""}],
+    "review_cnt": 1,
+    "review_list": [
+      {
+        "writer_info": {"id": 68716, "gender": "여", "born_year": "1984"},
+        "review_info": {"id": 3, "score": 4, "content": "홈플러스 1층 매장 푸드코트 내 있는 매장인데 계란찜정식은 처음보고 시켜봣는데 사진 그대로 치즈가 넘쳐 흐르는 계란찜이 메인이였네요\n치즈는 위에만 있어 금방 굳어 아쉬웠지만 맛은 평범하지만 보는재미가 있고 가성비 갠차는곳이였어요",
+        "reg_time": "1970-01-01 00:00:00"}
+      }
+    ]
+  }
+]
